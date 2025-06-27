@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:https": "next dev --turbopack --experimental-https",
-    "dev:https:network": "next dev --turbopack --experimental-https --hostname 192.168.0.225",
+    "dev:https:network": "next dev --turbopack --experimental-https --hostname $(node node-scripts/get-local-ip.ts)",
     "build": "next build",
     "start": "next start --turbopack",
     "lint": "next lint"
