@@ -1,5 +1,6 @@
 import '@telegram-apps/telegram-ui/dist/styles.css'
 import 'normalize.css/normalize.css'
+import '@styles/tailwind.css'
 import '@styles/index.scss'
 
 import type { PropsWithChildren } from 'react'
